@@ -40,4 +40,5 @@ Price: $10.50)
       expect(item_without_description.summary).to eq(expected_summary)
     end
   end
+    
 end
