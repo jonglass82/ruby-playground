@@ -24,10 +24,10 @@ end
 def summary
     
             if description
-    @summary = "Name: #{name}
-Description: #{description}
-Manufacturer: #{manufacturer}
-Price: $#{item_price}"
+    @summary = "Name: #{@name}
+Description: #{@description}
+Manufacturer: #{@manufacturer}
+Price: $#{@item_price}"
         else
     @summary = "Name: #{name}
 Manufacturer: #{manufacturer}
@@ -43,8 +43,11 @@ end
 #
 #item = Item.new("Spy Notebook", "Spys-R-Us", 10.50)
 #
+#item2 = Item.new("Spy Notebook", "Spys-R-Us", 5.75)
 #
-#puts item.summary
+#items = [item, item2]
+
+
 
 
 
